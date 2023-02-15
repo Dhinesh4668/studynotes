@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const Nav = () => {
   return (
     <div className=' items-center m-5 flex flex-row justify-evenly backdrop-blur-md backdrop-brightness-150 '>
-        <div className='text-lg font-bold uppercase'>IT department</div>
+        <NavLink to='/' className='text-lg font-bold uppercase'>IT department</NavLink>
         <div className='flex flex-nowrap justify-around gap-5  items-stretch' style={{flex: 0.3}}>
             <NavLink to='/'>
                 Home

@@ -11,7 +11,7 @@ const LabScreen = () => {
             <img src={LabImg} className='w-96 ' alt='labimage' />
             <div className='align-middle'>
                 <h1>OOAD Lab Mniual</h1>
-                <Button variant='outlined' color='error' endIcon={<PictureAsPdfIcon />}>OOAD lab Maniual</Button>
+                <Button variant='outlined' color='error' onClick={btnclick} endIcon={<PictureAsPdfIcon />}>OOAD lab Maniual</Button>
             </div>
         </div>
     </div>
@@ -19,3 +19,9 @@ const LabScreen = () => {
 }
 
 export default LabScreen
+
+function btnclick() {
+    window.open("https://drive.google.com/file/d/1Bf7KJGveFpD3-LJU-RMcThjzfXyAI9yb/view?usp=sharing")
+}
+
+
